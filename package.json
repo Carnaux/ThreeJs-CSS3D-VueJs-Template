@@ -1,5 +1,5 @@
 {
-  "name": "firstapp",
+  "name": "ThreeJs-CSS3D-VueJs-Template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "three": "^0.118.3",
+    "uuid": "^7.0.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
