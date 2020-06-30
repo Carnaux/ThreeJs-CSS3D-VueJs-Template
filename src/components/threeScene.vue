@@ -1,7 +1,7 @@
 <template>
     <div id="renderElement">
         <div id="css"></div>
-        <div id="webgl"></div>
+        <div id="webgl" class="webgl"></div>
     </div>
 </template>
 
@@ -139,5 +139,9 @@ export default {
     position: absolute;
     top: 0; 
     left: 0;
+}
+.webgl{
+    user-select: none;
+    pointer-events: none;
 }
 </style>
